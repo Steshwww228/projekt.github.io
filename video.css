@@ -1,0 +1,54 @@
+.video{
+    width: 600px;
+    height: 700px;
+}
+.content{
+   display: flex;
+    
+   
+}
+.text{
+    margin-left: 100px;
+    margin-top: 250px;
+    
+    
+}
+.text1{
+    margin-left: 0px;
+    margin-right: 100px;
+    margin-top: 250px;
+    
+}
+span{
+    color: orange;
+}
+.titler{
+text-align: center;
+font-size: 30px;
+}
+@media (max-width: 820px){
+    .content{
+        display: inline-block;
+    }
+    .video{
+        display: inline-block;
+        width: 350px;
+        height: 300px;
+       
+  
+    }
+    .text{
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 0px;
+        
+        
+    }
+    .text1{
+        margin-top: 0px;
+        text-align: center;
+       margin-right: 0px;
+        
+        
+    }
+}
